@@ -189,8 +189,8 @@ const styles = StyleSheet.create({
   },
 
   eye: {
-    width: 30,
-    height: 30,
+    width: 22,
+    height: 22,
     position: "absolute",
   },
 });
