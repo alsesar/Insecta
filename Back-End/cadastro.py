@@ -14,7 +14,7 @@ class Cadastro:
         cursor = conn.cursor()
         cursor.execute(
             "INSERT INTO Usuario (email, nome, id_usuario, senha) VALUES (?, ?, ?, ?)",
-            (f'{self.email}{g}', self.nome, f'{self.id_usuario}{g}', self.senha)
+            (f'{self.email}', self.nome, f'{self.id_usuario}{g}', self.senha)
         )
 
         conn.commit()
