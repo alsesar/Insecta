@@ -1,0 +1,35 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+
+# ===== Banco de dados local (SQLite antigo + dumps) =====
+*.db
+*.sqlite
+*.sqlite3
+Data-Base/
+backup_DB.sql
+*.dump
+
+# ===== Credenciais e ambiente =====
+.env
+.env.*
+!.env.example
+
+# ===== Schema antigo com senha em texto puro =====
+-- PostgreSQL.txt
+
+# ===== IDE / SO =====
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ===== Flask =====
+instance/
+.flaskenv
