@@ -22,7 +22,7 @@
       "package": "com.anonymous.insecta"
     },
     "web": {
-      "output": "static",
+      "output": "single",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
